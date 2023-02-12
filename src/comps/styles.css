@@ -1,0 +1,59 @@
+.c {
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.782);
+  }
+  .c:hover {
+    color: white;
+  }
+  .x{
+    color:blue;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* body {
+    background-image: url(C:/Users/GURDARSH VIRK\OneDrive\Documents\Project School\NODE\background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+  } */
+  .head{
+    background-color: black;
+  }
+  #root{
+    background-color: wheat;
+  }
+  p,
+  li {
+    font-size: 20px;
+  }
+  .nav-link:hover{
+    filter: brightness(5);
+    color: white !important;
+  }
+  #modal{
+    overflow: hidden;
+  }
+  table.table1 tbody td,
+      thead th {
+        border: 2px solid white;
+        border-collapse: separate;
+        padding: 15px;
+        cursor: pointer;
+      }
+      table {
+        border: 3px solid rgb(19, 7, 176);
+      }
+      thead {
+        background-color: rgb(18, 84, 238);
+        color: white;
+      }
+html,body,#root{
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
